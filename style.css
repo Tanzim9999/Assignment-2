@@ -277,33 +277,72 @@
 }
 
 /* training texts starts here  */
-.training {
+.calculator {
   background: black;
 }
-.training-texts {
+.calculator-texts {
   margin: 0px 190px;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
-.training-texts > h3 {
+.calculator-texts > h3 {
   color: rgb(255, 255, 255);
-font-size: 48px;
-font-weight: 900;
-text-align: left;
-padding-top: 100px;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: left;
+  padding-top: 100px;
 }
-.training-texts > p {
-color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-font-weight: 400;
-text-align: left;
-padding-bottom: 54px;
+.calculator-texts > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 54px;
 }
-/* training texts ends here  */
 
-/* training grid starts here  */
-
+/* calculator container starts here  */
+.calculator-container {
+  background: rgb(34, 34, 34);
+  height: 487px;
+  padding-left: 190px;
+  padding-top: 50px;
+  display: flex;
+}
+.calculator-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+.calculator-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.calculator-chart > table {
+  width: 310px;
+  height: 216px;
+}
+.calculator-chart th {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 18px;
+}
+.calculator-chart td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 18px;
+}
+.calculator-chart table,
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
 
 /* footer styles starts here */
 .footer {
@@ -386,7 +425,7 @@ padding-bottom: 54px;
   width: 326.67px;
   height: 272px;
   border-radius: 18px;
-  object-fit:cover;
+  object-fit: cover;
 }
 .grid {
   display: grid;
@@ -406,7 +445,6 @@ padding-bottom: 54px;
   /* position:fixed; */
   position: absolute;
   /* bottom: 25px; */
-
 }
 .grid-items > p {
   text-align: left;
@@ -475,6 +513,7 @@ padding-bottom: 54px;
 
   .habit-container {
     padding: 0px;
+    margin-bottom: 50px;
   }
   .habit-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -523,5 +562,12 @@ padding-bottom: 54px;
   }
   .footer > hr {
     margin: 20px 20px;
+  }
+  /* team container media queries starts here  */
+  .team-container {
+    padding: 50px 0px;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
