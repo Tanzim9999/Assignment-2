@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  /* padding: 0px; */
+  padding: 0px;
 }
 /* Shared Styles */
 .inter-font {
@@ -18,7 +18,7 @@
 .banner {
   padding: 0px 190px;
   max-width: 100%;
-  height: 5000px;
+  /* height: 5000px; */
   /* background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
@@ -185,6 +185,241 @@
   font-weight: 900;
 }
 
+/* Habits section starts here  */
+
+.habit {
+  background: black;
+}
+.habit-container {
+  padding: 100px 198px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+.habit-container > h2 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.habit-container > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 54px;
+}
+.habit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+.habit-grid img {
+  border-radius: 50%;
+}
+.habit-grid h4 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+.habit-grid p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* mile container starts here  */
+
+.mile-container {
+  display: flex;
+  margin: 0px 190px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  gap: 165px;
+}
+.mile-texts {
+  display: flex;
+  flex-direction: column;
+  padding: 41px 0px 41px 54px;
+}
+.mile-container img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  margin: 30px 30px 30px 0px;
+  object-fit: cover;
+  /* object-position: 10px 10%; */
+}
+.mile-container h2 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.mile-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+.mile-container button {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* training texts starts here  */
+.training {
+  background: black;
+}
+.training-texts {
+  margin: 0px 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.training-texts > h3 {
+  color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+text-align: left;
+padding-top: 100px;
+}
+.training-texts > p {
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+padding-bottom: 54px;
+}
+/* training texts ends here  */
+
+/* training grid starts here  */
+
+
+/* footer styles starts here */
+.footer {
+  background: rgb(34, 34, 34);
+}
+.footer-container {
+  padding: 66px 190px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot1 > h3 {
+  color: rgb(230, 83, 60);
+  font-size: 4.3rem;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.foot1 > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+.foot2 > h4 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 39px;
+}
+.foot2 li {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.footer > hr {
+  border: 0.9px solid rgba(255, 255, 255, 0.1);
+
+  margin: 0px 190px;
+}
+.footer > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding: 36px 0px;
+  text-align: center;
+  line-height: 34px;
+}
+/* meet our team starts here  */
+
+.team {
+  background-color: black;
+}
+.team-container {
+  padding: 90px 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.team-container > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.team-container > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 58px;
+}
+.grid-items {
+  position: relative;
+}
+.grid-items img {
+  width: 326.67px;
+  height: 272px;
+  border-radius: 18px;
+  object-fit:cover;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background: rgb(34, 34, 34);
+  border-radius: 18px;
+  /* position:relative; */
+}
+.grid-items > h5 {
+  text-align: left;
+  font-size: 1.3rem;
+  color: white;
+  bottom: 30px;
+  left: 16px;
+  /* position:fixed; */
+  position: absolute;
+  /* bottom: 25px; */
+
+}
+.grid-items > p {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  /* position:relative;
+  bottom: 1px; */
+}
+
 /* here starts media queries */
 
 @media screen and (max-width: 576px) {
@@ -235,5 +470,58 @@
     height: 2px;
     background-color: white;
     margin: 6px 0;
+  }
+  /* habit container starts here  */
+
+  .habit-container {
+    padding: 0px;
+  }
+  .habit-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mile-container {
+    margin: 0px 20px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .mile-texts {
+    padding: 31px 33px;
+  }
+  .mile-texts > button {
+    width: auto;
+  }
+  .mile-container > img {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px 33px 35px 33px;
+  }
+
+  /* footer starts here  */
+  .footer-container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .foot1 > h3 {
+    margin-top: 44px;
+    margin-left: 20px;
+  }
+  .foot1 > p {
+    margin-left: 20px;
+    margin-right: 56px;
+    margin-bottom: 30px;
+  }
+  .footer > p {
+    font-size: 1rem;
+    margin: 0px 20px;
+  }
+  .foot2 > h4 {
+    margin-left: 20px;
+  }
+  .foot2 li {
+    margin-left: 20px;
+  }
+  .footer > hr {
+    margin: 20px 20px;
   }
 }
