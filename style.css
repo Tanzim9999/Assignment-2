@@ -308,6 +308,7 @@
   padding-left: 190px;
   padding-top: 50px;
   display: flex;
+  gap: 175px;
 }
 .calculator-container h3 {
   color: rgb(255, 255, 255);
@@ -344,6 +345,57 @@ td {
   border-collapse: collapse;
 }
 
+/* calculator menu starts here  */
+.calculator-menu {
+  /* display: flex;
+  flex-direction: column; */
+}
+.calculator-menu h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.calculator-menu p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+.calculator-menu input {
+  width: 282.5px;
+  height: 40px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.calculator-menu select {
+  width: 342.5px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px 12px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.calculator-menu button {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 35px;
+}
 /* footer styles starts here */
 .footer {
   background: rgb(34, 34, 34);
