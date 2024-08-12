@@ -251,8 +251,8 @@
   height: 312px;
   border-radius: 18px;
   margin: 30px 30px 30px 0px;
-  object-fit: cover;
-  /* object-position: 10px 10%; */
+  object-fit: none;
+  object-position: 68% 30%;
 }
 .mile-container h2 {
   color: rgb(255, 255, 255);
@@ -595,6 +595,7 @@ td {
     height: auto;
     padding: 0px;
     margin: 0px 33px 35px 33px;
+    object-fit: contain;
   }
 
   /* footer starts here  */
