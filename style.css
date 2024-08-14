@@ -263,6 +263,7 @@
 .mile-container p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.85rem;
+  line-height: 24px;
   font-weight: 400;
   margin-bottom: 34px;
 }
@@ -298,10 +299,10 @@
 }
 .calculator-texts > p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 
 /* calculator container starts here  */
@@ -362,6 +363,7 @@ td {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
   font-weight: 400;
+  line-height: 24px;
   margin-bottom: 34px;
 }
 .calculator-menu input {
@@ -425,6 +427,7 @@ td {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.85rem;
   font-weight: 400;
+  line-height: 24px;
 }
 .foot2 > h4 {
   color: rgb(255, 255, 255);
