@@ -766,4 +766,11 @@ td {
   .calculator-chart > table {
     max-width: 95%;
   }
+
+  /* membership queries starts here  */
+  .membership-container {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
 }
